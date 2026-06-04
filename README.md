@@ -47,3 +47,14 @@ python test_face_crop_video.py
 
 External Code Notice:
 face_cropper.py contains adapted code from the VALLR repository and is used strictly for preprocessing purposes within this BSP project. Proper attribution is provided both in this repository and in the final academic report.
+
+## Dataset preprocessing 04/06/2026
+
+A Python utility is provided to automatically segment long session-level MP4 recordings into sentence-level clips using Praat TextGrid annotations.
+
+Features:
+- UTF-16 TextGrid support
+- skips silent intervals
+- FFmpeg-based video segmentation
+- preserves synchronized audio
+- generates metadata CSV files
