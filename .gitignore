@@ -1,0 +1,14 @@
+checkpoints/
+logs/
+experiments/
+miniforge3/
+miniconda_envs/
+venvs/
+__pycache__/
+*.pyc
+*.pt
+*.out
+*.err
+*.mp4
+*.npz
+*.zip
